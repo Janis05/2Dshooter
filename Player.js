@@ -4,7 +4,6 @@ class Player {
     this.x = startx;
     this.y = starty;
     this.state = "standing"; //shooting, up, down, right, left
-    
   }
 
   draw() {
@@ -52,11 +51,11 @@ class Player {
       this.x = this.x - 20;
       this.state = "standing";
     }
-    if(this.x>=569){
-    this.x = 569
+    if (this.x >= 569) {
+      this.x = 569;
     }
-    if(this.x <=1){
-      this.x = 1
+    if (this.x <= 1) {
+      this.x = 1;
     }
-  } 
+  }
 }
