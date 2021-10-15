@@ -59,4 +59,4 @@ class Player {
       this.x = 1
     }
   } 
-  
+}
